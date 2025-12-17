@@ -21,7 +21,7 @@ h1 {
   margin-top: -250px;
   display: flex;
   justify-content: right;
-	animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+	animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.2s both;
 }
 
 .jumbotron h6 {
@@ -52,15 +52,18 @@ section {
     justify-content: center;
     
   }
+
   .jumbotron h1 {
     margin-left: 200px;
     justify-self: center ;
+
   }
 
   .jumbotron h6 {
-    margin-right: 200px;
+    margin-right: 200px ;
     justify-self: center;
     animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+  
   }
 
 }
